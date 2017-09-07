@@ -7,12 +7,4 @@ class RequestController < ApplicationController
     render json: @requests
 
   end
-
-  def post
-    @request = Request.new(ip: request.remote_ip)
-    @request.save
-
-    @requests = Request.last(10)
-    render json: @requests
-  end
 end
