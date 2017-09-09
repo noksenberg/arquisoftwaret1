@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+*Descripción
+Esta aplicación fue escrita para la tarea 1 del curso Arquitectura de Sistemas de Software (PUC), el segundo semestre del año 2017. La aplicación está hecha en Ruby on Rails, y es una API que al recibir HTTP Requests (soportando todos los verbos) guarda la dirección IP de la máquina que los envía, junto a la fecha en que se recibieron. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+*Deploy
+Para el deploy se utilizo Capistrano, siguiendo esta guía: https://gorails.com/deploy/ubuntu/16.04
